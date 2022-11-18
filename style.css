@@ -1,0 +1,47 @@
+body
+{
+  font-family: 'Akaya Telivigala', cursive;
+  background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.header_div
+  {
+    background: #100a1c;
+    background-image:
+      radial-gradient(50% 30% ellipse at center top, #1af324 0%, rgba(170, 12, 233, 0.932) 100%),
+      radial-gradient(60% 50% ellipse at center bottom, #ccfd19 0%, #c01111 100%);
+    background-attachment: fixed;
+  color: white; 
+  }
+
+  .header_div p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .main_div button{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+  }
+
+  
+  .copy_right_footer {
+   position: fixed;
+   color: #00ffea;
+   bottom: 0;
+   width: 100%;
+   font-size: 18px;
+   background-color: #000000;
+background-image: linear-gradient(to right, #0f2027, #1f3036);
+   line-height: 3;
+   text-align: center;
+   text-shadow: 5px 5px 5px rgb(202, 202, 202);
+}       
